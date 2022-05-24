@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Calculator.css';
 
-class Calculator extends React.Component {
+class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {};
