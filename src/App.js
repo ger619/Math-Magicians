@@ -1,15 +1,20 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
+// eslint-disable-next-line import/no-named-as-default,import/no-named-as-default-member
 import Calculator from './components/Calculator';
 
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   render() {
-    return <Calculator />;
+    return (
+      <div className="App">
+        <Calculator />
+      </div>
+    );
   }
 }
 export default App;
