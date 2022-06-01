@@ -16,15 +16,30 @@ body {
   background-color: var(--white);
 }
 
+.header-display{
+
+}
+.header-home{
+  margin: 4%;
+}
 .app1 {
-  display: flex;
-  min-height: 100vh;
+  min-height: 75vh;
   align-items: center;
   justify-content: center;
+  display: inline-flex;
+}
+.home-content{
+  margin: 0;
+}
+
+.header-calc{
+  float: left;
+  width:50%;
+  margin-right: 5%;
 }
 
 .calculator {
-  width: 100%;
+  width: 50%;
   max-width: 400px;
   background-color: white;
   border-radius: 10px;
@@ -83,4 +98,24 @@ button:hover {
   background-color: var(--primary);
   color: black;
   border: 1px solid var(--primary);
+}
+
+.header-title {
+  color: black;
+  float: left;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+.header-list {
+  float: right;
+  list-style: none;
+  margin: 12px 24px 12px 12px;
+}
+
+.header-list li {
+  display: inline;
+  margin: 0 12px;
+  border-right: 3px solid black;
+  padding-right: 21px;
 }
