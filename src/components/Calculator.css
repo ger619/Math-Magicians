@@ -16,25 +16,24 @@ body {
   background-color: var(--white);
 }
 
-.header-display{
-
-}
-.header-home{
+.header-home {
   margin: 4%;
 }
+
 .app1 {
   min-height: 75vh;
   align-items: center;
   justify-content: center;
   display: inline-flex;
 }
-.home-content{
+
+.home-content {
   margin: 0;
 }
 
-.header-calc{
+.header-calc {
   float: left;
-  width:50%;
+  width: 50%;
   margin-right: 5%;
 }
 
