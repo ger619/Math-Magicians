@@ -1,7 +1,12 @@
 import React from 'react';
 import './App.css';
-// eslint-disable-next-line import/no-named-as-default,import/no-named-as-default-member
+import {
+  BrowserRouter as Router, Routes, Route,
+} from 'react-router-dom';
 import Calculator from './components/Calculator';
+import Home from './components/Home';
+import Header from './components/Header';
+import Quotes from './components/Quotes';
 
 class App extends React.Component {
   constructor(props) {
@@ -11,9 +16,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <Calculator />
-      </div>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/Calculator" element={<Calculator />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Quotes" element={<Quotes />} />
+        </Routes>
+      </Router>
     );
   }
 }
