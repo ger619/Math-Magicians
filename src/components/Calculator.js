@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
@@ -64,5 +64,6 @@ class Calculator extends Component {
       </div>
     );
   }
+
 }
 export default Calculator;
