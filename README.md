@@ -14,7 +14,9 @@
 
 ## Link to the live page
 
-> Feel free to check the [Portfolio-link]().
+> Feel free to check the [Netlify](https://heartfelt-elf-02b745.netlify.app/).
+> 
+> Feel free to check the [Heroku](https://abolgercalc.herokuapp.com/).
 
 ## Install Dependancies
 
