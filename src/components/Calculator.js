@@ -25,9 +25,7 @@ class Calculator extends Component {
         <div className="app1">
 
           <div className="header-calc">
-            <h1>Welcome to our page</h1>
-            {/* eslint-disable-next-line max-len */}
-            <p> Nullam vulputate magna ac accumsan tristique. Vivamus aliquam, ipsum at facilisis suscipit, arcu augue bibendum ex, a commodo purus eros eu arcu. Suspendisse et placerat erat. Cras lectus nisi, molestie at auctor non, vulputate non est. Suspendisse sodales molestie congue. Nulla metus sem, egestas non porta id, lobortis in nunc. Vivamus cursus pulvinar sem, in consequat lacus dignissim non. Fusce imperdiet eleifend lacus vitae placerat. Phasellus imperdiet sed ex quis imperdiet. Integer et cursus mauris. Integer commodo in justo in gravida.</p>
+            <h1>Lets do some math</h1>
           </div>
           <div className="calculator">
             <div className="display">
